@@ -1,7 +1,5 @@
 import { ReactNode, createElement } from "react"
-import { ThemeProvider } from "emotion-theming"
-
-import theme from "../styles/theme"
+import Provider from "../components/provider"
 
 type WrapperProps = {
   element: ReactNode
@@ -9,4 +7,4 @@ type WrapperProps = {
 }
 
 export default ({ element }: WrapperProps): ReactNode =>
-  createElement(ThemeProvider, { theme: theme }, element)
+  createElement(Provider, null, element)
