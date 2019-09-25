@@ -3,19 +3,9 @@ export const SYSTEM_FONT_STACK = `-apple-system, "BlinkMacSystemFont", "Segoe UI
 export const breakpoints = ["40em", "52em", "60em"]
 
 export const colors = {
-  blue: ["#5579ff"],
-  gray: [
-    "#121212",
-    "#1E1E1E",
-    "#232323",
-    "#252525",
-    "#272727",
-    "#2C2C2C",
-    "#2E2E2E",
-    "#333333",
-    "#363636",
-    "#383838"
-  ]
+  background: "#1b1b1b",
+  primary: "#5579ff",
+  text: "white"
 }
 
 export const space = [0, 4, 8, 16, 32, 64, 128, 256]
@@ -30,13 +20,13 @@ export const fontSizes = [12, 14, 16, 20, 24, 32, 48, 64]
 export const fontWeights = {
   body: 400,
   heading: 700,
-  bold: 700,
-  semiBold: 600
+  semiBold: 600,
+  bold: 700
 }
 
 export const lineHeights = {
   body: 1.5,
-  heading: 1.25
+  heading: 1.5
 }
 
 export const text = {
@@ -52,7 +42,7 @@ export const text = {
 
 export const variants = {
   link: {
-    color: "blue.0",
+    color: "primary",
     fontWeight: "bold",
     textDecoration: "none"
   }
@@ -60,10 +50,10 @@ export const variants = {
 
 export const styles = {
   root: {
+    bg: "background",
+    color: "text",
     fontFamily: "body",
     lineHeight: "body",
-    bg: "gray.1",
-    color: "white",
     minHeight: "100vh"
   }
 }
