@@ -52,7 +52,8 @@ export const text = {
 
 export const variants = {
   link: {
-    color: "blue.0"
+    color: "blue.0",
+    fontWeight: "bold"
   }
 }
 

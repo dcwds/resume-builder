@@ -10,7 +10,7 @@ const IndexPage = () => (
     <Box
       as="section"
       sx={{
-        fontSize: 5,
+        fontSize: [4, null, 5],
         mb: 6
       }}
     >
