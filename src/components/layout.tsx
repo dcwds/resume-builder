@@ -22,9 +22,17 @@ const Layout: FC<Props> = ({ children }) => {
 
   return (
     <Box variant="styles.root">
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <Box as="main">{children}</Box>
-      <Footer />
+      <Box
+        sx={{
+          margin: "0 auto",
+          maxWidth: 1020,
+          px: 4
+        }}
+      >
+        <Header siteTitle={data.site.siteMetadata.title} />
+        <Box as="main">{children}</Box>
+        <Footer />
+      </Box>
     </Box>
   )
 }

@@ -1,8 +1,9 @@
-export const SYSTEM_FONT_STACK = `-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"`
+export const SYSTEM_FONT_STACK = `-apple-system, "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif`
 
 export const breakpoints = ["40em", "52em", "60em"]
 
 export const colors = {
+  blue: ["#5579ff"],
   gray: [
     "#121212",
     "#1E1E1E",
@@ -49,10 +50,16 @@ export const text = {
   }
 }
 
+export const variants = {
+  link: {
+    color: "blue.0"
+  }
+}
+
 export const styles = {
   root: {
     fontFamily: "body",
-    lineHeight: "heading",
+    lineHeight: "body",
     bg: "gray.1",
     color: "white",
     minHeight: "100vh"
@@ -68,5 +75,6 @@ export default {
   fontWeights,
   lineHeights,
   text,
+  variants,
   styles
 }
