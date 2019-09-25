@@ -4,7 +4,7 @@ import { Link as RebassLink } from "rebass"
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const Link = (props: any) => (
-  <RebassLink as={GatsbyLink} sx={{ textDecoration: "none" }} {...props}>
+  <RebassLink as={GatsbyLink} {...props}>
     {props.children}
   </RebassLink>
 )
