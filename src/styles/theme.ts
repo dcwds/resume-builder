@@ -65,8 +65,8 @@ export const styles = {
   },
   h2: {
     color: "heading",
-    fontSize: [2, null, 3],
-    mb: [2, null, 3]
+    fontSize: [3, null, 4],
+    mb: [3, null, 4]
   }
 }
 
