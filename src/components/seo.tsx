@@ -2,7 +2,7 @@ import React, { FC } from "react"
 import Helmet from "react-helmet"
 import useSiteMetadata from "../hooks/use-site-metadata"
 
-type SiteMetadata = {
+type Props = {
   description?: string
   keywords?: string[]
   lang?: string
@@ -10,7 +10,7 @@ type SiteMetadata = {
   title: string
 }
 
-const SEO: FC<SiteMetadata> = ({ description, lang, meta, title }) => {
+const SEO: FC<Props> = ({ description, lang, meta, title }) => {
   const data = useSiteMetadata()
   const metaDescription: string = description || data.description
 
