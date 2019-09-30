@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Box, Text } from "rebass"
+import { Box, Heading, Text } from "rebass"
 
 const IndexPage = () => (
   <Layout>
@@ -10,13 +10,13 @@ const IndexPage = () => (
     <Box
       as="section"
       sx={{
-        fontSize: [4, null, 5],
+        fontSize: [3, null, 4],
         mb: 6
       }}
     >
-      <Text as="p" sx={{ mb: 4 }}>
+      <Heading as="h1" variant="styles.h1">
         A greater Gatsby starter.
-      </Text>
+      </Heading>
       <Text as="p">
         Theming, styles, linters, pre-commit hooks, &amp; more.
       </Text>

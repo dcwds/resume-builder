@@ -17,7 +17,8 @@ const Layout: FC<Props> = ({ children }) => {
       <Box
         sx={{
           margin: "0 auto",
-          maxWidth: 1020,
+          maxWidth: 960,
+          minHeight: "inherit",
           px: 4
         }}
       >

@@ -4,8 +4,9 @@ export const breakpoints = ["40em", "52em", "60em"]
 
 export const colors = {
   background: "#1b1b1b",
-  primary: "#5579ff",
-  text: "white"
+  primary: "#8b8eff",
+  text: "#b9b9b9",
+  heading: "white"
 }
 
 export const space = [0, 4, 8, 16, 32, 64, 128, 256]
@@ -19,7 +20,7 @@ export const fontSizes = [12, 14, 16, 20, 24, 32, 48, 64]
 
 export const fontWeights = {
   body: 400,
-  heading: 700,
+  heading: 600,
   semiBold: 600,
   bold: 700
 }
@@ -32,6 +33,7 @@ export const lineHeights = {
 export const text = {
   heading: {
     fontFamily: "heading",
+    fontWeight: "heading",
     lineHeight: "heading"
   },
   display: {
@@ -55,6 +57,11 @@ export const styles = {
     fontFamily: "body",
     lineHeight: "body",
     minHeight: "100vh"
+  },
+  h1: {
+    color: "heading",
+    fontSize: [4, null, 5],
+    mb: 4
   }
 }
 
