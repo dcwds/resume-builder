@@ -19,6 +19,11 @@ const Provider: FC<Props> = ({ children }) => (
             margin: 0;
             min-height: 100vh;
           }
+
+          ul {
+            list-style-type: none;
+            padding: 0;
+          }
         `}
       />
       {children}

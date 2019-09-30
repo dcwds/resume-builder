@@ -10,7 +10,7 @@ const Header: FC<Props> = ({ siteTitle }) => (
   <Box
     as="header"
     sx={{
-      mb: [5, 6, 7],
+      mb: [5, 6, null],
       py: 4
     }}
   >

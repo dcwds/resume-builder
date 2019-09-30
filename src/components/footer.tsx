@@ -3,7 +3,7 @@ import ExternalLink from "./external-link"
 import { Box } from "rebass"
 
 const Footer: FC = () => (
-  <Box as="footer" sx={{ py: 4 }}>
+  <Box as="footer" sx={{ py: 4, mt: [5, null, 6] }}>
     © {new Date().getFullYear()}, Built with{" "}
     <ExternalLink href="https://www.gatsbyjs.org">Gatsby</ExternalLink>
   </Box>
