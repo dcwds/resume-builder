@@ -43,15 +43,15 @@
   ],
   "license": "MIT",
   "scripts": {
+    "start": "npm run develop",
+    "serve": "gatsby serve",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "develop:m": "gatsby develop -H 0.0.0.0",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \"",
     "lint": "eslint . --ext ts --ext tsx",
-    "lint:fix": "npm run lint --fix"
+    "lint:fix": "npm run lint --fix",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
   },
   "repository": {
     "type": "git",
