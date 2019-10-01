@@ -30,8 +30,8 @@ const IndexPage = () => (
     <Box
       as="section"
       sx={{
-        fontSize: [3, null, 4],
-        mb: [5, null, 6]
+        fontSize: [2, null, 3],
+        mb: 5
       }}
     >
       <Heading as="h1" variant="styles.h1">
@@ -48,11 +48,7 @@ const IndexPage = () => (
       </Heading>
       <ul>
         {links.map((l, i) => (
-          <Text
-            as="li"
-            key={i}
-            sx={{ fontSize: [2, null, 3], mb: [2, null, 3] }}
-          >
+          <Text as="li" key={i} sx={{ mb: [2, null, 3] }}>
             <ExternalLink href={l.url}>{l.name}</ExternalLink>
           </Text>
         ))}

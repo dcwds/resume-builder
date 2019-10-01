@@ -9,14 +9,31 @@ export const colors = {
   heading: "white"
 }
 
-export const space = [0, 4, 8, 16, 32, 64, 128, 256]
+export const space = [
+  0,
+  "0.25rem", // 4px
+  "0.5rem", // 8px
+  "1rem", // 16px
+  "2rem", // 32px
+  "4rem", // 64px
+  "8rem", // 128px
+  "16rem" // 256px
+]
 
 export const fonts = {
   body: SYSTEM_FONT_STACK,
   heading: "inherit"
 }
 
-export const fontSizes = [12, 14, 16, 20, 24, 32, 48, 64]
+export const fontSizes = [
+  "0.8rem", // 13px
+  "1rem", // 16px
+  "1.25rem", // 20px
+  "1.563rem", // 25px
+  "1.953rem", // 31px
+  "2.441rem", // 39px
+  "3.052rem" // 49px
+]
 
 export const fontWeights = {
   body: 400,
@@ -61,11 +78,11 @@ export const styles = {
   h1: {
     color: "heading",
     fontSize: [4, null, 5],
-    mb: [3, null, 4]
+    mb: 3
   },
   h2: {
     color: "heading",
-    fontSize: [3, null, 4],
+    fontSize: [2, null, 3],
     mb: [3, null, 4]
   }
 }
