@@ -15,6 +15,7 @@ const Provider: FC<Props> = ({ children }) => (
         styles={css`
           html,
           body {
+            font-size: 105%;
             height: 100vh;
             margin: 0;
             min-height: 100vh;

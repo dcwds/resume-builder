@@ -12,12 +12,13 @@ type Props = {
 
 const SEO: FC<Props> = ({ description, lang, meta, title }) => {
   const data = useSiteMetadata()
+  const language = lang ? lang : "en"
   const metaDescription: string = description || data.description
 
   return (
     <Helmet
       htmlAttributes={{
-        lang
+        language
       }}
       title={title}
       titleTemplate={`%s – ${data.title}`}
