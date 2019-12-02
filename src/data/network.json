@@ -1,0 +1,18 @@
+{
+  "name": "Dalton Woods",
+  "title": "Front-end Engineer",
+  "services": [
+    {
+      "name": "Email",
+      "description": "hello@dcwds.co"
+    },
+    {
+      "name": "Twitter",
+      "description": "@daltonwoods"
+    },
+    {
+      "name": "GitHub",
+      "description": "dcwds"
+    }
+  ]
+}

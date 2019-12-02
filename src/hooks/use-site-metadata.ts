@@ -11,7 +11,7 @@ const useSiteMetadata = () => {
     site: { siteMetadata }
   } = useStaticQuery(
     graphql`
-      query {
+      query MetadataQuery {
         site {
           siteMetadata {
             title

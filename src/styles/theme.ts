@@ -43,8 +43,7 @@ export const fontWeights = {
 }
 
 export const lineHeights = {
-  body: 1.75,
-  heading: 1.75
+  body: 1.75
 }
 
 export const text = {
@@ -78,12 +77,17 @@ export const styles = {
   h1: {
     color: "heading",
     fontSize: [4, null, 5],
-    mb: 3
+    mb: 2
   },
   h2: {
     color: "heading",
     fontSize: [2, null, 3],
-    mb: [3, null, 4]
+    mb: [1, null, 2]
+  },
+  h3: {
+    color: "heading",
+    fontSize: [1, null, 2],
+    mb: [1, null, 2]
   }
 }
 

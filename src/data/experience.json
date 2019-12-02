@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Front-end Engineer",
+    "company": "Past Company",
+    "startDate": "Jan 2019",
+    "endDate": "Now",
+    "summary": "",
+    "highlights": [
+      "An interesting point.",
+      "An interesting second point.",
+      "An interesting third point."
+    ]
+  },
+  {
+    "title": "Front-end Engineer",
+    "company": "Past Company 2",
+    "startDate": "Jan 2018",
+    "endDate": "Dec 2018",
+    "summary": "",
+    "highlights": [
+      "An interesting point.",
+      "An interesting second point.",
+      "An interesting third point."
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Languages",
+    "items": ["JavaScript", "HTML", "CSS"]
+  },
+  {
+    "title": "Tools",
+    "items": [
+      "Git",
+      "React",
+      "Redux",
+      "TypeScript",
+      "Gatsby.js",
+      "SASS",
+      "LESS"
+    ]
+  }
+]
