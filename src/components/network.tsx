@@ -14,9 +14,9 @@ const Network: FC = () => {
         <Text sx={{ fontSize: 2 }}>{data.title}</Text>
       </Box>
 
-      <Box as="ul">
+      <Box as="dl">
         {data.services.map((s, i) => (
-          <Box as="li" key={i}>
+          <Box key={i} sx={{ mb: 1, "&:last-of-type": { mb: 0 } }}>
             <Text
               as="dt"
               sx={{
