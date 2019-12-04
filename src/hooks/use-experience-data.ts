@@ -1,15 +1,5 @@
 import { graphql, useStaticQuery } from "gatsby"
-
-type Experience = {
-  node: {
-    title: string
-    company: string
-    startDate: string
-    endDate: string
-    summary: string
-    highlights: []
-  }
-}[]
+import { Experience } from "../types"
 
 const useExperienceData = () => {
   const {

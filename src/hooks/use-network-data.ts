@@ -1,13 +1,5 @@
 import { graphql, useStaticQuery } from "gatsby"
-
-type Network = {
-  name: string
-  title: string
-  services: {
-    name: string
-    description: string
-  }[]
-}
+import { Network } from "../types"
 
 const useNetworkData = () => {
   const {

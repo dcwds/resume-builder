@@ -76,18 +76,16 @@ export const styles = {
   },
   h1: {
     color: "heading",
-    fontSize: [4, null, 5],
-    mb: 2
+    fontSize: [4, null, 5]
   },
   h2: {
     color: "heading",
-    fontSize: [2, null, 3],
-    mb: [1, null, 2]
+    fontSize: [3, null, 4],
+    mb: 3
   },
   h3: {
     color: "heading",
-    fontSize: [1, null, 2],
-    mb: [1, null, 2]
+    fontSize: 2
   }
 }
 

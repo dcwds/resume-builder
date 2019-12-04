@@ -1,5 +1,6 @@
 import React from "react"
 
+import { Box, Flex } from "rebass"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Network from "../components/network"
@@ -9,8 +10,14 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Resume" />
-      <Network />
-      <Experience />
+      <Flex as="article">
+        <Box as="section" width={1 / 3}>
+          <Network />
+        </Box>
+        <Box as="section" width={2 / 3}>
+          <Experience />
+        </Box>
+      </Flex>
     </Layout>
   )
 }
