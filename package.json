@@ -23,6 +23,7 @@
     "typeface-inter": "^3.10.0"
   },
   "devDependencies": {
+    "@types/puppeteer": "^2.0.0",
     "@types/react-helmet": "^5.0.14",
     "@types/rebass": "^4.0.3",
     "@typescript-eslint/eslint-plugin": "^2.9.0",
@@ -34,6 +35,7 @@
     "husky": "^3.1.0",
     "lint-staged": "^9.5.0",
     "prettier": "^1.19.1",
+    "puppeteer": "^2.0.0",
     "typescript": "^3.7.2"
   },
   "keywords": [
@@ -49,7 +51,8 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "lint": "eslint . --ext ts --ext tsx",
     "lint:fix": "npm run lint --fix",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \"",
+    "to-pdf": "node src/utils/to-pdf.js" 
   },
   "repository": {
     "type": "git",
