@@ -17,5 +17,6 @@ export type Network = {
   services: {
     name: string
     description: string
+    link: string
   }[]
 }

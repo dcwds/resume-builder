@@ -15,6 +15,7 @@ const useNetworkData = () => {
               services {
                 name
                 description
+                link
               }
             }
           }

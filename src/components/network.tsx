@@ -2,6 +2,7 @@ import React, { FC, Fragment } from "react"
 import useNetworkData from "../hooks/use-network-data"
 
 import { Box, Text } from "rebass"
+import ExternalLink from "../components/external-link"
 import { H1 } from "../components/headings"
 
 const Network: FC = () => {
@@ -18,7 +19,7 @@ const Network: FC = () => {
         {data.services.map((s, i) => (
           <Box key={i} sx={{ mb: 1, "&:last-of-type": { mb: 0 } }}>
             <Text
-              as="dt"
+              as="span"
               sx={{
                 display: "inline-block",
                 mr: 3,
@@ -28,9 +29,9 @@ const Network: FC = () => {
             >
               {s.name}
             </Text>
-            <Text as="dd" sx={{ display: `inline-block` }}>
+            <ExternalLink href={s.link} sx={{ display: `inline-block` }}>
               {s.description}
-            </Text>
+            </ExternalLink>
           </Box>
         ))}
       </Box>

@@ -4,15 +4,18 @@
   "services": [
     {
       "name": "Email",
-      "description": "hello@dcwds.co"
+      "description": "hello@dcwds.co",
+      "link": "mailto:hello@dcwds.co"
     },
     {
       "name": "Twitter",
-      "description": "@daltonwoods"
+      "description": "@daltonwoods",
+      "link": "https://twitter.com/daltonwoods"
     },
     {
       "name": "GitHub",
-      "description": "dcwds"
+      "description": "dcwds",
+      "link": "https://github.com/dcwds"
     }
   ]
 }
