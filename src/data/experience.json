@@ -34,5 +34,17 @@
       "An interesting second point.",
       "An interesting third point."
     ]
+  },
+  {
+    "title": "Front-end Engineer",
+    "company": "Past Company 4",
+    "startDate": "Jan 2016",
+    "endDate": "Dec 2016",
+    "summary": "",
+    "highlights": [
+      "An interesting point.",
+      "An interesting second point.",
+      "An interesting third point."
+    ]
   }
 ]

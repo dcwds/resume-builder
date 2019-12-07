@@ -14,5 +14,9 @@
       "SASS",
       "LESS"
     ]
+  },
+  {
+    "title": "Interests",
+    "items": ["Gaming", "Cooking", "Typography", "Open Source", "Privacy"]
   }
 ]

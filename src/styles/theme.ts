@@ -13,13 +13,13 @@ export const colors = {
 
 export const space = [
   0,
-  "0.25rem", // 4px
-  "0.5rem", // 8px
-  "1rem", // 16px
-  "2rem", // 32px
-  "4rem", // 64px
-  "8rem", // 128px
-  "16rem" // 256px
+  "0.25em", // 4px
+  "0.5em", // 8px
+  "1em", // 16px
+  "2em", // 32px
+  "4em", // 64px
+  "8em", // 128px
+  "16em" // 256px
 ]
 
 export const fonts = {
@@ -83,7 +83,7 @@ export const styles = {
   h2: {
     color: "heading",
     fontSize: [2, null, 3],
-    mb: 3
+    mb: 1
   },
   h3: {
     color: "heading",
