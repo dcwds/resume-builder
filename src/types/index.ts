@@ -20,3 +20,10 @@ export type Network = {
     link: string
   }[]
 }
+
+export type Knowledge = {
+  node: {
+    title: string
+    items: []
+  }
+}[]

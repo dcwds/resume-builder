@@ -5,19 +5,27 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Network from "../components/network"
 import Experience from "../components/experience"
+import Knowledge from "../components/knowledge"
+import Spacer from "../components/spacer"
 
 const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Resume" />
-      <Flex as="article" sx={{ pt: 6 }}>
-        <Box as="section" width={1 / 3} sx={{ mr: 4 }}>
+      <Box as="article">
+        <Box as="section" sx={{ mb: 4 }}>
           <Network />
         </Box>
-        <Box as="section" width={2 / 3}>
-          <Experience />
-        </Box>
-      </Flex>
+        <Spacer />
+        <Flex as="section">
+          <Box width={2 / 3} sx={{ pr: 6 }}>
+            <Experience />
+          </Box>
+          <Box width={1 / 3}>
+            <Knowledge />
+          </Box>
+        </Flex>
+      </Box>
     </Layout>
   )
 }

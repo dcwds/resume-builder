@@ -1,12 +1,13 @@
 import React, { FC, Fragment } from "react"
 import { Box, Flex, Text } from "rebass"
 import { H2, H3 } from "../components/headings"
+import Bullet from "../components/bullet"
 
 import useExperienceData from "../hooks/use-experience-data"
 import { Job } from "../types"
 
 const JobItem = (props: Job) => (
-  <Box as="li" sx={{ mb: 3, "&:last-of-type": { mb: 0 } }}>
+  <Box as="li" sx={{ mb: 4, "&:last-of-type": { mb: 0 } }}>
     <Flex as="section">
       <Box width={1 / 2} sx={{ mb: 2 }}>
         <H3>{props.title}</H3>
@@ -23,9 +24,7 @@ const JobItem = (props: Job) => (
 
     <Box as="ul">
       {props.highlights.map((h, i) => (
-        <Box as="li" key={i}>
-          {h}
-        </Box>
+        <Bullet key={i}>{h}</Bullet>
       ))}
     </Box>
   </Box>

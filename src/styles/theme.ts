@@ -3,10 +3,12 @@ export const SYSTEM_FONT_STACK = `Inter, -apple-system, "BlinkMacSystemFont", "S
 export const breakpoints = ["40em", "52em", "60em"]
 
 export const colors = {
-  background: "#1b1b1b",
-  primary: "#8b8eff",
-  text: "#b9b9b9",
-  heading: "white"
+  background: "white",
+  primary: "#5183f5",
+  text: "#404040",
+  washed: "#e8e8e8",
+  bullets: "#cecece",
+  heading: "#111"
 }
 
 export const space = [
@@ -39,7 +41,7 @@ export const fontWeights = {
   body: 400,
   heading: 600,
   semiBold: 600,
-  bold: 700
+  bold: 600
 }
 
 export const lineHeights = {
@@ -76,16 +78,16 @@ export const styles = {
   },
   h1: {
     color: "heading",
-    fontSize: [4, null, 5]
+    fontSize: [3, null, 4]
   },
   h2: {
     color: "heading",
-    fontSize: [3, null, 4],
+    fontSize: [2, null, 3],
     mb: 3
   },
   h3: {
     color: "heading",
-    fontSize: 2
+    fontSize: 1
   }
 }
 

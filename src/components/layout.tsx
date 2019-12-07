@@ -1,6 +1,4 @@
 import React, { FC, ReactNode } from "react"
-
-import Footer from "./footer"
 import { Box } from "rebass"
 
 type Props = {
@@ -14,11 +12,11 @@ const Layout: FC<Props> = ({ children }) => (
         margin: "0 auto",
         maxWidth: "60rem",
         minHeight: "inherit",
-        px: 4
+        py: 4,
+        px: 5
       }}
     >
       <Box as="main">{children}</Box>
-      <Footer />
     </Box>
   </Box>
 )
