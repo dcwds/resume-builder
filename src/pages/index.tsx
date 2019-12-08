@@ -18,7 +18,7 @@ const IndexPage = () => {
         </Box>
         <Spacer />
         <Flex as="section">
-          <Box width={2 / 3} sx={{ pr: 6 }}>
+          <Box width={2 / 3} sx={{ pr: 5 }}>
             <Experience />
           </Box>
           <Box width={1 / 3}>
