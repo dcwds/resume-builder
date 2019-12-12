@@ -1,7 +1,7 @@
 {
   "name": "resume",
   "private": true,
-  "description": "The web-based resume of Dalton Woods.",
+  "description": "Web-based resume with PDF generator.",
   "version": "0.1.0",
   "author": "@dcwds",
   "dependencies": {
